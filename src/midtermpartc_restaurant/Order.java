@@ -11,8 +11,8 @@ import java.util.Scanner;
  */
 public class Order 
 {
-    private int timeOffset;//the number of hours from now that you wish to get delivery, 0 is right now
-    private String name;//the name associated with the order
+    public int timeOffset;//the number of hours from now that you wish to get delivery, 0 is right now
+    public String name;//the name associated with the order
     public String[] constraints = {"pub style", "fast food", "family restaurant", "fine dining"};
     
     /**
